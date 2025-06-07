@@ -1,0 +1,165 @@
+<!-- <section class="align-content-center">
+  <div class="container">
+    <div
+      class="d-flex align-items-center justify-content-between w-40 text-start mx-auto animate__animated animate__fadeInDown"
+    >
+      <i class="fa-solid fa-book-open icon"></i>
+      <h1 class="fw-bold ps-5">نتيجة الصف الأول البتدائي</h1>
+    </div>
+    <form class="mx-auto mt-4 animate__animated animate__fadeInUp">
+      <label class="form-label" for="studetName">اسم الطالب</label>
+      <input
+        class="form-control py-3 px-3"
+        id="studetName"
+        type="text"
+        placeholder="أدخل اسم الطالب ثلاثي"
+      />
+      <button class="btn btn-success my-3 py-3 px-5 fw-bolder">
+        إعرض النتيجة
+      </button>
+      <div class="text-center w-50">
+        <p class="fw-medium fs-5 m-0">تحت إشراف رئيس الكنترول</p>
+        <p class="fw-medium fs-5 m-0">أستاذ عماد وجيه</p>
+      </div>
+    </form>
+    <div *ngFor="let student of students" class="mt-5">
+      <table class="table table-bordered text-end w-50 mx-auto">
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            الاسم: {{ student.name }}
+          </td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.arabic }}</td>
+          <td>اللغة العربية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.english }}</td>
+          <td>اللغة الإنجليزية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.math }}</td>
+          <td>الرياضيات</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.interdisciplinary }}</td>
+          <td>المادة البينية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.physical_education }}</td>
+          <td>التربية الرياضية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.religion }}</td>
+          <td>التربية الدينية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.values }}</td>
+          <td>القيم</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ student.tokkatsu }}</td>
+          <td>التوكاتسو</td>
+        </tr>
+        <tr>
+          <td class="p-3 fw-bold">{{ student.result }}</td>
+          <td class="fw-bold">النتيجة</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section> -->
+
+<section class="align-content-center pt-5">
+  <div class="container">
+    <!-- العنوان -->
+    <div
+      class="d-flex align-items-center justify-content-between w-50 text-start mx-auto animate__animated animate__fadeInDown"
+    >
+      <i class="fa-solid fa-book-open icon"></i>
+      <h1 class="fw-bold ps-5">نتيجة الصف الأول الابتدائي</h1>
+    </div>
+
+    <!-- النموذج -->
+    <form
+      class="mx-auto mt-4 animate__animated animate__fadeInUp w-50"
+      (ngSubmit)="searchStudent()"
+    >
+      <label class="form-label" for="studetName">اسم الطالب</label>
+      <input
+        class="form-control py-3 px-3"
+        id="studetName"
+        type="text"
+        [(ngModel)]="studentName"
+        name="studentName"
+        placeholder="أدخل اسم الطالب ثلاثي"
+        required
+      />
+      <button class="btn btn-success my-3 py-3 px-5 fw-bolder" type="submit">
+        إعرض النتيجة
+      </button>
+
+      <div class="text-center w-100">
+        <p class="fw-medium fs-5 m-0">تحت إشراف رئيس الكنترول</p>
+        <p class="fw-medium fs-5 m-0">أستاذ عماد وجيه</p>
+      </div>
+    </form>
+
+    <!-- جدول النتيجة -->
+    <div *ngIf="selectedStudent" class="mt-5">
+      <table class="table table-bordered text-end w-50 mx-auto">
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            الاسم: {{ selectedStudent.name }}
+          </td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.arabic }}</td>
+          <td>اللغة العربية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.english }}</td>
+          <td>اللغة الإنجليزية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.math }}</td>
+          <td>الرياضيات</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.interdisciplinary }}</td>
+          <td>المادة البينية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.physical_education }}</td>
+          <td>التربية الرياضية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.religion }}</td>
+          <td>التربية الدينية</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.values }}</td>
+          <td>القيم</td>
+        </tr>
+        <tr>
+          <td class="p-3">{{ selectedStudent.tokkatsu }}</td>
+          <td>التوكاتسو</td>
+        </tr>
+        <tr>
+          <td class="p-3 fw-bold">{{ selectedStudent.result }}</td>
+          <td class="fw-bold">النتيجة</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- رسالة في حالة عدم وجود الطالب -->
+    <div
+      *ngIf="
+        (selectedStudent === null && studentName) || selectedStudent === null
+      "
+      class="text-danger text-center mt-3"
+    >
+      تأكد من الاسم وحاول مرة أخرى.
+    </div>
+  </div>
+</section>

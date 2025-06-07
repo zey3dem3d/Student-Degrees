@@ -1,0 +1,25 @@
+:root {
+  --dark-blue-color: #245c8b;
+  --light-blue-color: #3a90da;
+  --nav-blue-color: #7baedc;
+  --sky-blue-color: #eefbff;
+  --green-color: #79c156;
+  --dark-green-color: #28a745;
+  --green-blue-color: #37cdae;
+}
+
+.lemonada {
+  font-family: "Lemonada", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lemonada", cursive !important;
+}
+
+* {
+  font-family: "Tajawal", sans-serif;
+}
