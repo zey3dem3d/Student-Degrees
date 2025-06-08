@@ -13,6 +13,10 @@ h1 {
   font-size: 47px;
 }
 
+h4 {
+  color: var(--dark-blue-color);
+}
+
 .box1 h5,
 .box3 h5,
 .box5 h5 {
@@ -20,7 +24,8 @@ h1 {
 }
 
 .box2 h5,
-.box4 h5 {
+.box4 h5,
+.box6 h5 {
   background-color: var(--dark-green-color);
 }
 
