@@ -1,7 +1,7 @@
 section {
   background-color: var(--sky-blue-color);
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 a {
@@ -13,16 +13,19 @@ h1 {
   font-size: 47px;
 }
 
-.box2 h5 {
+.box1 h5,
+.box3 h5,
+.box5 h5 {
+  background-color: var(--light-blue-color);
+}
+
+.box2 h5,
+.box4 h5 {
   background-color: var(--dark-green-color);
 }
 
 .boxes {
   width: 35%;
-}
-
-.box1 h5 {
-  background-color: var(--light-blue-color);
 }
 
 @media all and (max-width: 992px) {

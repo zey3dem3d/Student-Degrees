@@ -17,7 +17,7 @@ interface Student {
 
 @Component({
   selector: 'app-first-grade',
-  imports: [NgFor, NgIf, FormsModule],
+  imports: [NgIf, FormsModule],
   templateUrl: './first-grade.component.html',
   styleUrl: './first-grade.component.css',
 })
@@ -1387,4 +1387,10 @@ export class FirstGradeComponent {
     this.selectedStudent =
       this.students.find((s) => s.name.startsWith(firstThreeWords)) || null;
   }
+
+  // gradeColor() {
+  //   if (this.selectedStudent?.arabic === 'يلبى التوقعات') {
+  //     return 'bg-danger';
+  //   }
+  // }
 }

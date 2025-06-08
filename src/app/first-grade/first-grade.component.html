@@ -114,34 +114,132 @@
           </td>
         </tr>
         <tr>
+          @if (selectedStudent.arabic == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.arabic == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.arabic == 'يفوق التوقعات دائماً' ||
+          selectedStudent.arabic == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.arabic == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.arabic }}</td>
           <td>اللغة العربية</td>
         </tr>
         <tr>
+          @if (selectedStudent.english == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.english == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.english == 'يفوق التوقعات دائماً' ||
+          selectedStudent.english == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.english == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.english }}</td>
           <td>اللغة الإنجليزية</td>
         </tr>
         <tr>
+          @if (selectedStudent.math == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.math == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.math == 'يفوق التوقعات دائماً' ||
+          selectedStudent.math == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.math == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.math }}</td>
           <td>الرياضيات</td>
         </tr>
         <tr>
+          @if (selectedStudent.interdisciplinary == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.interdisciplinary == 'يلبى التوقعات
+          أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.interdisciplinary == 'يفوق التوقعات دائماً'
+          || selectedStudent.interdisciplinary == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.interdisciplinary == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.interdisciplinary }}</td>
           <td>المادة البينية</td>
         </tr>
         <tr>
+          @if (selectedStudent.physical_education == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.physical_education == 'يلبى التوقعات
+          أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.physical_education == 'يفوق التوقعات
+          دائماً' || selectedStudent.physical_education == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.physical_education == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.physical_education }}</td>
           <td>التربية الرياضية</td>
         </tr>
         <tr>
+          @if (selectedStudent.religion == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.religion == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.religion == 'يفوق التوقعات دائماً' ||
+          selectedStudent.religion == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.religion == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.religion }}</td>
           <td>التربية الدينية</td>
         </tr>
         <tr>
+          @if (selectedStudent.values == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.values == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.values == 'يفوق التوقعات دائماً' ||
+          selectedStudent.values == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.values == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.values }}</td>
           <td>القيم</td>
         </tr>
         <tr>
+          @if (selectedStudent.tokkatsu == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.tokkatsu == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning"></td>
+          }@else if (selectedStudent.tokkatsu == 'يفوق التوقعات دائماً' ||
+          selectedStudent.tokkatsu == 'اجتاز') {
+          <td class="bg-primary"></td>
+          } @else if (selectedStudent.tokkatsu == 'أقل من المتوقع') {
+          <td class="bg-danger"></td>
+          }@else {
+          <td class="bg-white"></td>
+          }
           <td class="p-3">{{ selectedStudent.tokkatsu }}</td>
           <td>التوكاتسو</td>
         </tr>
@@ -151,8 +249,6 @@
         </tr>
       </table>
     </div>
-
-    <!-- رسالة في حالة عدم وجود الطالب -->
     <div
       *ngIf="
         (selectedStudent === null && studentName) || selectedStudent === null

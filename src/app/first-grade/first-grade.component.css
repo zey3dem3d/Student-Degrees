@@ -29,3 +29,9 @@ button {
   background-color: var(--green-blue-color) !important;
   border: 0;
 }
+
+@media all and (max-width: 992px) {
+  form {
+    width: 95% !important;
+  }
+}
