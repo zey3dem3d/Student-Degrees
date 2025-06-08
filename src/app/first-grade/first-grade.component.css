@@ -39,4 +39,10 @@ button {
   table {
     width: 95% !important;
   }
+
+  .title {
+    justify-items: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
 }

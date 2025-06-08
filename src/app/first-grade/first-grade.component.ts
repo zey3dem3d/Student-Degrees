@@ -1376,7 +1376,6 @@ export class FirstGradeComponent {
     const words = input.split(' ');
 
     if (words.length < 3) {
-      // أقل من 3 أسماء => ما تعرضش نتيجة
       this.selectedStudent = null;
       alert('أدخل اسم الطالب ثلاثي');
       return;
@@ -1387,10 +1386,4 @@ export class FirstGradeComponent {
     this.selectedStudent =
       this.students.find((s) => s.name.startsWith(firstThreeWords)) || null;
   }
-
-  // gradeColor() {
-  //   if (this.selectedStudent?.arabic === 'يلبى التوقعات') {
-  //     return 'bg-danger';
-  //   }
-  // }
 }
