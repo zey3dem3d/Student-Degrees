@@ -10,7 +10,7 @@ a {
 
 h1 {
   color: var(--dark-blue-color);
-  font-size: 47px;
+  font-size: 37px;
 }
 
 h4 {
@@ -30,12 +30,15 @@ h4 {
 }
 
 .boxes {
-  width: 35%;
+  width: 50%;
 }
 
 @media all and (max-width: 992px) {
   .boxes {
     width: 80%;
+  }
+  h1 {
+    width: 80% !important;
   }
 }
 
@@ -45,7 +48,7 @@ h4 {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .box h5 {
