@@ -1,1 +1,281 @@
-<p>fifth-grade works!</p>
+<section class="align-content-center pt-5">
+  <div class="container">
+    <div
+      class="d-flex align-items-center title justify-content-between w-50 text-start mx-auto animate__animated animate__fadeInDown"
+    >
+      <i class="fa-solid fa-book-open icon"></i>
+      <h1 class="fw-bold ps-5">نتيجة الصف الرابع الابتدائي</h1>
+    </div>
+    <form
+      class="mx-auto mt-4 animate__animated animate__fadeInUp w-50"
+      (ngSubmit)="searchStudent()"
+    >
+      <label class="form-label" for="seatNumber">رقم الجلوس</label>
+      <input
+        class="form-control py-3 px-3"
+        id="seatNumber"
+        type="number"
+        [(ngModel)]="seatNumber"
+        name="seatNumber"
+        placeholder="أدخل رقم الجلوس"
+        required
+      />
+      <button class="btn btn-success my-3 py-3 px-5 fw-bolder" type="submit">
+        إعرض النتيجة
+      </button>
+
+      <div class="text-center w-100">
+        <p class="fw-medium fs-5 m-0">تحت إشراف رئيس الكنترول</p>
+        <p class="fw-medium fs-5 m-0">أستاذ عماد وجيه</p>
+      </div>
+    </form>
+    <div *ngIf="selectedStudent" class="mt-5">
+      <table class="table table-bordered text-end w-50 mx-auto">
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            الاسم: {{ selectedStudent.name }}
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            رقم الجلوس: {{ selectedStudent.seatnumber }}
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            الصف الخامس الابتدائي
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold pb-4">
+            المدرسة: كمال الدين حافظ رمضان
+          </td>
+        </tr>
+        <tr>
+          @if (selectedStudent.arabic == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.arabic == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.arabic == 'يفوق التوقعات دائماً' ||
+          selectedStudent.arabic == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.arabic == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.arabic }}</td>
+          <td>اللغة العربية</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.math == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.math == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.math == 'يفوق التوقعات دائماً' ||
+          selectedStudent.math == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.math == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.math }}</td>
+          <td>الرياضيات</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.studies == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.studies == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.studies == 'يفوق التوقعات دائماً' ||
+          selectedStudent.studies == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.studies == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.studies }}</td>
+          <td>الدراسات</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.sciences == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.sciences == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.sciences == 'يفوق التوقعات دائماً' ||
+          selectedStudent.sciences == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.sciences == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.sciences }}</td>
+          <td>العلوم</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.ict == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.ict == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.ict == 'يفوق التوقعات دائماً' ||
+          selectedStudent.ict == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.ict == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.ict }}</td>
+          <td>ICT</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.profess_Skills == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.profess_Skills == 'يلبى التوقعات أحياناً')
+          {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.profess_Skills == 'يفوق التوقعات دائماً' ||
+          selectedStudent.profess_Skills == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.profess_Skills == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="bg-black gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.profess_Skills }}</td>
+          <td>المهارات المهنية</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.english == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.english == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.english == 'يفوق التوقعات دائماً' ||
+          selectedStudent.english == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.english == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.english }}</td>
+          <td>اللغة الإنجليزية</td>
+        </tr>
+        <tr class="fw-bold">
+          @if (selectedStudent.total == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.total == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.total == 'يفوق التوقعات دائماً' ||
+          selectedStudent.total == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.total == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.total }}</td>
+          <td>المجموع الكلي</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.religion == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.religion == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.religion == 'يفوق التوقعات دائماً' ||
+          selectedStudent.religion == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.religion == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.religion }}</td>
+          <td>التربية الدينية</td>
+        </tr>
+
+        <tr>
+          @if (selectedStudent.art == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.art == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.art == 'يفوق التوقعات دائماً' ||
+          selectedStudent.art == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.art == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.art }}</td>
+          <td>التربية الفنية</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.physicalEducation == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.physicalEducation == 'يلبى التوقعات
+          أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.physicalEducation == 'يفوق التوقعات دائماً'
+          || selectedStudent.physicalEducation == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.physicalEducation == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.physicalEducation }}</td>
+          <td>التربية الرياضية</td>
+        </tr>
+        <tr>
+          @if (selectedStudent.musicEducation == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.musicEducation == 'يلبى التوقعات أحياناً')
+          {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.musicEducation == 'يفوق التوقعات دائماً' ||
+          selectedStudent.musicEducation == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.musicEducation == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.musicEducation }}</td>
+          <td>التربية الموسيقية</td>
+        </tr>
+
+        <tr>
+          @if (selectedStudent.tokkatsu == 'يلبى التوقعات') {
+          <td class="bg-success"></td>
+          } @else if (selectedStudent.tokkatsu == 'يلبى التوقعات أحياناً') {
+          <td class="bg-warning gradeColor"></td>
+          }@else if (selectedStudent.tokkatsu == 'يفوق التوقعات دائماً' ||
+          selectedStudent.tokkatsu == 'اجتاز') {
+          <td class="bg-primary gradeColor"></td>
+          } @else if (selectedStudent.tokkatsu == 'أقل من المتوقع') {
+          <td class="bg-danger gradeColor"></td>
+          }@else {
+          <td class="gradeColor"></td>
+          }
+          <td class="p-3">{{ selectedStudent.tokkatsu }}</td>
+          <td>التوكاتسو</td>
+        </tr>
+        <tr>
+          <td class=""></td>
+          <td class="p-3 fw-bold">{{ selectedStudent.result }}</td>
+          <td class="fw-bold">النتيجة</td>
+        </tr>
+      </table>
+    </div>
+    <div
+      *ngIf="seatNumber && selectedStudent === null"
+      class="text-danger text-center mt-3 animate__animated animate__fadeInUp"
+    >
+      تأكد من رقم الجلوس وحاول مرة أخرى.
+    </div>
+  </div>
+</section>
