@@ -23,8 +23,16 @@
       <button class="btn btn-success my-3 py-3 px-5 fw-bolder" type="submit">
         إعرض النتيجة
       </button>
-
-      <div class="text-center w-100">
+      <div
+        *ngIf="
+          (selectedStudent === null && studentName) || selectedStudent === null
+        "
+        class="text-danger mt-0 animate__animated animate__fadeInUp"
+      >
+        <p class="m-0">تأكد من الاسم وحاول مرة أخرى.</p>
+        <p class="m-0 pb-5">جرب وضع همزة على حرف الألف أو حذفها</p>
+      </div>
+      <div class="text-center w-100 pb-5">
         <p class="fw-medium fs-5 m-0">تحت إشراف رئيس الكنترول</p>
         <p class="fw-medium fs-5 m-0">أستاذ عماد وجيه</p>
       </div>
@@ -34,6 +42,11 @@
         <tr>
           <td colspan="2" class="border-0 pb-3 fw-bold">
             الاسم: {{ selectedStudent.name }}
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="border-0 pb-3 fw-bold">
+            الصف الأول الابتدائي
           </td>
         </tr>
         <tr>
@@ -177,14 +190,6 @@
           <td class="fw-bold">النتيجة</td>
         </tr>
       </table>
-    </div>
-    <div
-      *ngIf="
-        (selectedStudent === null && studentName) || selectedStudent === null
-      "
-      class="text-danger text-center mt-3 animate__animated animate__fadeInUp"
-    >
-      تأكد من الاسم وحاول مرة أخرى.
     </div>
   </div>
 </section>

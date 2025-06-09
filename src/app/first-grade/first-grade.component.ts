@@ -1368,6 +1368,7 @@ export class FirstGradeComponent {
       result: 'ناجح',
     },
   ];
+
   studentName: string = '';
   selectedStudent: Student | null = null;
 

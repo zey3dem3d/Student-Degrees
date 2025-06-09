@@ -23,8 +23,13 @@
       <button class="btn btn-success my-3 py-3 px-5 fw-bolder" type="submit">
         إعرض النتيجة
       </button>
-
-      <div class="text-center w-100">
+      <div
+        *ngIf="seatNumber && selectedStudent === null"
+        class="text-danger text-center mt-3 animate__animated animate__fadeInUp"
+      >
+        تأكد من رقم الجلوس وحاول مرة أخرى.
+      </div>
+      <div class="text-center w-100 pb-5">
         <p class="fw-medium fs-5 m-0">تحت إشراف رئيس الكنترول</p>
         <p class="fw-medium fs-5 m-0">أستاذ عماد وجيه</p>
       </div>
@@ -270,12 +275,6 @@
           <td class="fw-bold">النتيجة</td>
         </tr>
       </table>
-    </div>
-    <div
-      *ngIf="seatNumber && selectedStudent === null"
-      class="text-danger text-center mt-3 animate__animated animate__fadeInUp"
-    >
-      تأكد من رقم الجلوس وحاول مرة أخرى.
     </div>
   </div>
 </section>
