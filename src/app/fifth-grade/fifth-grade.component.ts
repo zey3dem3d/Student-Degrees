@@ -45,7 +45,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ابراهيم محمد ابراهيم محمد العراقي',
@@ -63,7 +63,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'احمد ابراهيم السيد علي محمد',
@@ -81,7 +81,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'احمد أشرف أحمد عبد الشافي حسن',
@@ -99,7 +99,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'احمد جميل أحمد عبد الفتاح ابراهيم',
@@ -117,7 +117,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'احمد محمود أحمد جاد أحمد ',
@@ -135,7 +135,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'احمد مصطفى ماهر عبده محمد مصطفى',
@@ -153,7 +153,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم ابراهيم محمد ابراهيم عيد طه',
@@ -171,7 +171,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم أحمد السعيدمحمد شهده',
@@ -189,7 +189,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم أشرف السيد أحمد ابراهيم  النجار',
@@ -207,7 +207,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم رائد فهمي حسن يونس',
@@ -225,7 +225,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم محمد المتولي عبدالعزيز',
@@ -243,7 +243,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ادم محمد محمد ابراهيم عبد الرحيم',
@@ -261,7 +261,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اسر محمد السعيد عبد الهادي',
@@ -279,7 +279,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'الدسوقي محمد معوض ابراهيم جمعه',
@@ -297,7 +297,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'السيد علي أكرم علي محمدين',
@@ -315,7 +315,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'امير أحمد السيد أحمدمتولي',
@@ -333,7 +333,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اياد احمد محمد طلبة',
@@ -351,7 +351,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اياد أحمد السيد أحمدابراهيم',
@@ -369,7 +369,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اياد محمد ابراهيم حسن',
@@ -387,7 +387,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اياد وائل عادل رأفت رشاد',
@@ -405,7 +405,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'بدرمحمد شعبان السعيد',
@@ -423,7 +423,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'بلال محمود عبد المولى حامد عبد المولى',
@@ -459,7 +459,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حبيب حازم محمد حسن أحمد العدوي',
@@ -477,7 +477,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حسن احمد حسن محمد حسن الشاعر',
@@ -495,7 +495,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حسين محمد حسين الدمرداش',
@@ -513,7 +513,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حمادة كريم توكل أبو المعاطي',
@@ -531,7 +531,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حمدي عماد حمدي محمد عبد الحميد',
@@ -549,7 +549,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حمزة باسم مرعي علي طالب',
@@ -567,7 +567,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رضا محمد رضا احمد محمود حيدر',
@@ -585,7 +585,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريان وسيم محمد الهادي محمد',
@@ -603,7 +603,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'زياد أحمد أمين عبده علي السيد',
@@ -621,7 +621,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'زياد أحمد صالح عبد الرازق رزق',
@@ -639,7 +639,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سيف السيد صبري منصور السعيد',
@@ -657,7 +657,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سيف أحمد محمد سيف الدين حامد',
@@ -675,7 +675,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سيف سامي عبده عبده السيد حسن العربي',
@@ -693,7 +693,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سيف محمود مصطفى ابراهيم حسن',
@@ -711,7 +711,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عادل كمال عادل كمال حسن',
@@ -729,7 +729,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عبد الرحمن أحمد محمود محمد السيد',
@@ -765,7 +765,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عبد الهادي محمد ابراهيم جاد',
@@ -783,7 +783,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'علي إبراهيم محمد إبراهيم محمد',
@@ -801,7 +801,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمار السيد المتولى كامل المتولى',
@@ -819,7 +819,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمر إبراهيم إبراهيم حسن سليمان',
@@ -837,7 +837,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمر إبراهيم رشدي نصر',
@@ -855,7 +855,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمر محسن محمد حسن إسماعيل',
@@ -873,7 +873,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمر وليد ميمي عبده إبراهيم',
@@ -891,7 +891,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمرو خالد  أنور عبد الرحمن زهره',
@@ -909,7 +909,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمرو فريد شوقي جمعه الوصيف',
@@ -927,7 +927,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عمرو محمد عبد العظيم حامد محمد',
@@ -945,7 +945,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'فادي عصام علي علي فرج',
@@ -963,7 +963,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'فؤاد رجب فؤاد عوض أبو سالم',
@@ -981,7 +981,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'كمال المتولي كمال محمود',
@@ -999,7 +999,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'لؤي محمد رشدي محمد فرج',
@@ -1017,7 +1017,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مازن إبراهيم مازن مسعد علي الإمام',
@@ -1035,7 +1035,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مالك محمد السيد عبد العال صابر',
@@ -1053,7 +1053,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد إسلام السيد صالح خالد',
@@ -1071,7 +1071,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد أحمد أحمد حسنين محمد',
@@ -1089,7 +1089,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد أحمد توكل أحمد أحمد عز الدين',
@@ -1107,7 +1107,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد أحمد محمد السيد إبراهيم حامد',
@@ -1125,7 +1125,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد أحمد محمد فؤاد محمد مراد',
@@ -1143,7 +1143,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد حازم حسنين عبد الغني أحمد بدوي',
@@ -1161,7 +1161,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد حازم فتحي الحنفي صلاح',
@@ -1179,7 +1179,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد خالد محمد عبد الفتاح',
@@ -1197,7 +1197,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد رضا عبد الرحمن السيد عبد الوهاب',
@@ -1215,7 +1215,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد طارق محمود محمود علي سراج',
@@ -1233,25 +1233,25 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد عادل إبراهيم محمد السيد',
       seatnumber: 97,
-      arabic: 'يلبى التوقعات',
-      math: 'يلبى التوقعات',
-      studies: 'يلبى التوقعات',
+      arabic: 'يفوق التوقعات دائماً',
+      math: 'يفوق التوقعات دائماً',
+      studies: 'يفوق التوقعات دائماً',
       sciences: 'يفوق التوقعات دائماً',
-      english: 'يلبى التوقعات',
+      english: 'يفوق التوقعات دائماً',
       ict: 'يفوق التوقعات دائماً',
-      profess_Skills: 'يلبى التوقعات',
+      profess_Skills: 'يفوق التوقعات دائماً',
       total: 'اجتاز',
       religion: 'يفوق التوقعات دائماً',
-      art: 'يلبى التوقعات',
+      art: 'يفوق التوقعات دائماً',
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد محمود السيد أحمد علام',
@@ -1269,7 +1269,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد مصطفى حامد الحداد',
@@ -1287,7 +1287,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد نصر محمد عبد السلام',
@@ -1305,7 +1305,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد وائل أحمد محمد محمد أحمد صلاح',
@@ -1323,7 +1323,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمد وليد السيد عبد العظيم عبد الوهاب',
@@ -1341,7 +1341,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمود السيد محمود محمد حسنين بدوي',
@@ -1359,7 +1359,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمود حلمي محمود محمد حسنين',
@@ -1377,7 +1377,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'محمود محمد عزت السيد محمد العياضي',
@@ -1395,7 +1395,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مروان أحمد محمود أحمد محمد القلا',
@@ -1413,7 +1413,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مصطفى محمد عزمي ابرااهيم حامد النشار',
@@ -1431,7 +1431,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'معاذ سمير السيد العجمي المرسي',
@@ -1449,7 +1449,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'معاذ محمد السيد عبد العال صابر',
@@ -1467,7 +1467,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'نور محمد حسين عبد الفتاح ابراهيم',
@@ -1485,7 +1485,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'هيثم عمرو نزيه نعمان محمد',
@@ -1503,7 +1503,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'وائل محمد فؤاد عبد الشكورعبدالله',
@@ -1521,7 +1521,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ياسين احمد محمد أحمد الصعيدي ',
@@ -1539,7 +1539,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ياسين خالد السيدمحمد عبد الستار',
@@ -1557,7 +1557,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ياسين محمد السيد عبدالمنعم السيد جبر',
@@ -1575,7 +1575,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ياسين محمود أحمد عبدالفتاح محمد خليل',
@@ -1593,7 +1593,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'يحي حازم فتحي الحنفي صلاح',
@@ -1611,7 +1611,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'يس محمد على أحمد الوصيف',
@@ -1629,7 +1629,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'يوسف خالد مطاوع إبراهيم مطاوع',
@@ -1647,7 +1647,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'يوسف محمد السيد حامد المتولى',
@@ -1665,7 +1665,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'يوسف محمد سعد عبد الوهاب',
@@ -1683,7 +1683,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اروى أحمد محمد محمد نبيل',
@@ -1701,7 +1701,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اروى محمود سعد السيد إبراهيم حماد',
@@ -1719,7 +1719,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'اسيل محمود عبد الفتاح عبد الحميد المهندس',
@@ -1737,7 +1737,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'امال السيد فهمي نصر المليجي',
@@ -1755,7 +1755,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'امنيه محسن إبراهيم المرسي العياضي',
@@ -1773,7 +1773,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'بسمله عبد الغني السيد السيد محمد مونس',
@@ -1791,7 +1791,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'تقى السعيد محمود السعيد سليمان',
@@ -1809,7 +1809,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'تولين حمدي السيد عبد الرؤف مصطفى',
@@ -1827,7 +1827,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جنات السعيد المهدي عبد المنعم زياده',
@@ -1845,7 +1845,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جنى السيد سليمان محمد عماشه',
@@ -1863,7 +1863,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جنى أحمد السيد المتولي سليمان',
@@ -1881,7 +1881,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جنى عمرو محمد عبد الحليم',
@@ -1899,7 +1899,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جودي إبراهيم إبراهيم حسن حسين',
@@ -1917,7 +1917,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جودي أحمد السعيد السعيد حسن ستيت',
@@ -1935,7 +1935,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'جودي مأمون مأمون محمود محمد الباز',
@@ -1953,7 +1953,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حبيبه محمود سيد أحمد متولي',
@@ -1971,7 +1971,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حبيبه محمود محمد السعيد المتولي',
@@ -1989,7 +1989,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حلا أحمد السيد إبراهيم العشري',
@@ -2007,7 +2007,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حنين عبده محمد محمد أحمد',
@@ -2025,7 +2025,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'حنين كريم فهيم السيد حسن',
@@ -2043,7 +2043,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'دنيا محمد محمد السعيد محمد سالم',
@@ -2061,7 +2061,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رقيه هيثم محمد أحمد جوهر عبد الخالق',
@@ -2079,7 +2079,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رهف بدير عباس محمد الشحات',
@@ -2097,7 +2097,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رهف تامر محمد طاهر ميرغني',
@@ -2115,7 +2115,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رودينا أحمد أحمد عبد الحليم جمعه',
@@ -2133,7 +2133,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رودينا محمد أحمد محمد حبش',
@@ -2151,7 +2151,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'روضة وجيه إبراهيم عيد يوسف',
@@ -2169,7 +2169,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريتاج عماد رشاد أبو المعاطي',
@@ -2187,7 +2187,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريتال جابر شفيق السيد أحمد',
@@ -2205,7 +2205,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريتال علي محمد فؤاد محمد',
@@ -2223,7 +2223,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريماس إبراهيم عبد الشافي',
@@ -2241,7 +2241,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريماس حسام محمد عبد الرحمن علي عبد العال',
@@ -2259,7 +2259,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريماس حسني أيمن حسني توفيق',
@@ -2277,7 +2277,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ريماس وليد جمعه محمد علي',
@@ -2295,7 +2295,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'زينب محمد السيد السيد شبانه',
@@ -2313,7 +2313,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'زينه إبراهيم أحمد عبد الحميد حسانين بدوي',
@@ -2331,7 +2331,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'زينه أشرف محمد إبراهيم بدوي',
@@ -2349,7 +2349,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سلمى عزيز عبد المنعم عبد الرازق المتولي',
@@ -2367,7 +2367,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سلوى حاتم سمير محمود ابوالمعاطي',
@@ -2385,7 +2385,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سما إبراهيم طاهر عبد العال صابر',
@@ -2403,7 +2403,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سما أحمد إبراهيم عبد السلام أحمد',
@@ -2421,7 +2421,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سما عباس رشاد محمود الحديدي',
@@ -2439,7 +2439,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سما محمد حسنين علي علي محمد',
@@ -2457,7 +2457,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'سمر تامر عوض محمد عيسى',
@@ -2475,7 +2475,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'شروق محمد منصور محمد سليمان المراكبي',
@@ -2493,7 +2493,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'شهد عبد العظيم أحمد سيد أحمد زهره',
@@ -2511,7 +2511,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'شهد محمد أحمد المرسي ربيع',
@@ -2529,7 +2529,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'عزه محمد مختار منصور محمد إبراهيم',
@@ -2547,7 +2547,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'غرام محمد محمد محمود الباز',
@@ -2565,7 +2565,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'فاطمه محمد محمد إبراهيم محمود الشابوري',
@@ -2583,7 +2583,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'فيروز محمودأبو حلاوه أحمد محمود يس',
@@ -2601,7 +2601,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'لميس أحمد محمد عبد المنعم حسن حسانين',
@@ -2619,7 +2619,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'لوجين أحمد صبري عيد سيد أحمد',
@@ -2637,7 +2637,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ليان تامر سمير السيد أحمد خيوه',
@@ -2655,7 +2655,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'لين محمد السعيد محمد المنسي',
@@ -2673,7 +2673,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مرام محمد ناصف إبراهيم المندراوي',
@@ -2691,7 +2691,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مروه السيد محمود سلامه السيد',
@@ -2709,7 +2709,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مريم أحمد عصام عبد المعطي النحاس',
@@ -2727,7 +2727,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مريم رضا المتولي محمد علي',
@@ -2745,7 +2745,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مريم علي إبراهيم المغازي إبراهيم',
@@ -2763,7 +2763,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'مريم وائل محمد محمود المتولي النجار',
@@ -2781,7 +2781,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ملك أنيس محمد عبد الفتاح',
@@ -2799,7 +2799,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ملك عمرو إبراهيم المتولي الوصيف',
@@ -2817,7 +2817,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ملك محمد إبراهيم مرسي العجمي',
@@ -2835,7 +2835,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ملك وائل محمد عبدين بدوي',
@@ -2853,7 +2853,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'منه السيد المهدي محمد حسنين',
@@ -2871,7 +2871,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'منى السيد محمود سلامه السيد',
@@ -2889,7 +2889,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'منى عبد الفتاح إبراهيم حسن سليمان',
@@ -2907,7 +2907,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ميرال محمد إبراهيم محمود يوسف',
@@ -2925,7 +2925,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'نورهان عبد العظيم محمد محمد عبد الستار',
@@ -2943,7 +2943,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'نورين السيد محمد إبراهيم عبد العال ستيت',
@@ -2961,7 +2961,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'هلا هاني جبر محمد المرسي',
@@ -2979,7 +2979,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'هنا السيد محمد عبدالفتاح ابراهيم',
@@ -2997,7 +2997,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'هنا هاني جبر محمد المرسي',
@@ -3015,7 +3015,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'ولاء عماد الدين عبده محمد مصطفى',
@@ -3033,7 +3033,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'رودينا محمد محمد الدسوقي ابراهيم',
@@ -3051,7 +3051,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
     {
       name: 'فريد محمد الحسيني محمد ابو العنين',
@@ -3069,7 +3069,7 @@ export class FifthGradeComponent {
       physicalEducation: 'اجتاز',
       musicEducation: 'اجتاز',
       tokkatsu: 'اجتاز',
-      result: 'اجتاز',
+      result: 'ناجح',
     },
   ];
 
