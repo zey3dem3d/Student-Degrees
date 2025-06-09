@@ -674,7 +674,7 @@ export class ThirdGradeComponent {
       seatnumber: 56,
       arabic: 'يفوق التوقعات دائماً',
       english: 'يفوق التوقعات دائماً',
-      math: 'يلبى التوقعات',
+      math: 'يفوق التوقعات دائماً',
       multidisciplinary: 'يفوق التوقعات دائماً',
       total: 'يفوق التوقعات دائماً',
       religion: 'يفوق التوقعات دائماً',
